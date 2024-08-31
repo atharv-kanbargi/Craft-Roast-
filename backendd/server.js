@@ -115,7 +115,7 @@ app.post('/api/upload', upload.array('Files'), async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.json("Server running.....");
+  res.send("Server running.....");
 });
 
 // Start the server
