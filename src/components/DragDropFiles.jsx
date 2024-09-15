@@ -25,7 +25,7 @@ const DragDropFiles = () => {
     });
 
     try {
-      const response = await axios.post("https://craft-backend-nine.vercel.app/api/upload", formData, {
+      const response = await axios.post("https://craft-backend-nine.vercel.app/upload", formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
